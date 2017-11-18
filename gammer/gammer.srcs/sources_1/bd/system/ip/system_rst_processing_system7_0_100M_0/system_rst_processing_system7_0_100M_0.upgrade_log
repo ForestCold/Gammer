@@ -1,0 +1,37 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.1 (win64) Build 1215546 Mon Apr 27 19:22:08 MDT 2015
+| Date         : Sat Jun 27 12:34:36 2015
+| Host         : a-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_rst_processing_system7_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_rst_processing_system7_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.4 (win64) Build 1071353 Tue Nov 18 18:24:04 MST 2014
+| Date         : Tue Jun 23 23:12:57 2015
+| Host         : MS-20140827WUVR running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_rst_processing_system7_0_100M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_rst_processing_system7_0_100M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 3) to (Rev. 6)
+

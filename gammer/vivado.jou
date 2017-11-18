@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Jun 24 00:08:17 2015
+# Process ID: 2480
+# Log file: E:/university/learning/try_2/vivado.log
+# Journal file: E:/university/learning/try_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/university/learning/try_2/try_2.xpr
+file copy -force E:/university/learning/try_2/try_2.runs/impl_1/system_wrapper.sysdef E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf
+
+launch_sdk -workspace E:/university/learning/try_2/try_2.sdk -hwspec E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf

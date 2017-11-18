@@ -1,0 +1,663 @@
+09:50:10 INFO  : Processing command line option -hwspec E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf.
+09:50:27 INFO  : Launching XSDB server: xsdb.bat -s F:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:02:17 INFO  : BSP Project P/TestAPP has been successfully migrated.
+10:06:38 INFO  : BSP Project P/standalone_bsp_0 has been successfully migrated.
+10:11:23 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:12:21 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Cannot Read from target
+
+
+    MMU section translation fault
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1069)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:482)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:584)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:16:07 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:16:19 INFO  : ps7_init is completed.
+10:16:19 INFO  : ps7_post_config is completed.
+10:16:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:18:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:20:54 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:21:04 INFO  : ps7_init is completed.
+10:21:04 INFO  : ps7_post_config is completed.
+10:21:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:35:41 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:14:57 INFO  : Processing command line option -hwspec E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf.
+17:15:02 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+17:15:02 INFO  : Launching XSDB server: xsdb.bat -s F:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+18:54:51 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:55:11 INFO  : ps7_init is completed.
+18:55:11 INFO  : ps7_post_config is completed.
+18:55:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:56:18 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:57:34 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:57:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:57:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:57:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:58:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:02:06 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+19:02:59 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:03:11 INFO  : ps7_init is completed.
+19:03:11 INFO  : ps7_post_config is completed.
+19:03:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:04:39 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:05:06 INFO  : ps7_init is completed.
+19:05:06 INFO  : ps7_post_config is completed.
+19:05:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:17:40 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:17:56 INFO  : ps7_init is completed.
+20:17:56 INFO  : ps7_post_config is completed.
+20:17:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:19:13 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:19:31 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:19:40 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:19:51 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Unable to Stop Processor. System could be in unknown state.
+                     Please reset the system
+Unknown Error Occured
+    
+
+	at com.xilinx.sdk.targetmanager.internal.TM.stop(TM.java:753)
+	at com.xilinx.sdk.targetmanager.internal.CPURunSession.terminate(CPURunSession.java:27)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminateCurrentLaunch(TM.java:801)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:564)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+20:20:30 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:22:08 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+21:04:25 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+21:04:48 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:17:04 INFO  : Processing command line option -hwspec E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf.
+21:17:10 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+21:17:10 INFO  : Launching XSDB server: xsdb.bat -s F:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+21:19:30 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+21:19:43 INFO  : ps7_init is completed.
+21:19:43 INFO  : ps7_post_config is completed.
+21:19:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:28:56 ERROR : FPGA Configuration failed.Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not connected to the host
+
+21:29:29 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+21:29:41 INFO  : ps7_init is completed.
+21:29:41 INFO  : ps7_post_config is completed.
+21:29:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:29:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:30:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:32:46 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+21:32:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:39:45 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+22:39:57 INFO  : ps7_init is completed.
+22:39:57 INFO  : ps7_post_config is completed.
+22:39:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:41:01 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+22:41:50 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+22:42:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:53:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:40:02 INFO  : Processing command line option -hwspec E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf.
+08:40:08 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+08:40:08 INFO  : Launching XSDB server: xsdb.bat -s F:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+09:07:36 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+09:07:48 INFO  : ps7_init is completed.
+09:07:48 INFO  : ps7_post_config is completed.
+09:07:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:27:30 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+09:27:41 INFO  : ps7_init is completed.
+09:27:41 INFO  : ps7_post_config is completed.
+09:27:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:28:31 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+09:28:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:29:45 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+09:30:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:30:59 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+09:31:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+09:31:35 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:32:56 INFO  : Processing command line option -hwspec E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf.
+09:32:59 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+09:33:00 INFO  : Launching XSDB server: xsdb.bat -s F:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+09:37:04 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+09:37:43 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+09:38:29 INFO  : ps7_init is completed.
+09:38:29 INFO  : ps7_post_config is completed.
+09:38:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:40:39 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+09:40:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:57:09 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+09:57:20 INFO  : ps7_init is completed.
+09:57:20 INFO  : ps7_post_config is completed.
+09:57:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:01:42 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:11:19 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:11:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:12:38 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:12:48 INFO  : ps7_init is completed.
+10:12:49 INFO  : ps7_post_config is completed.
+10:12:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:18:52 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:20:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:23:51 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:24:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:25:01 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:25:08 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:25:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:25:20 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:666)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:605)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:25:44 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error in Resetting Target
+
+    Could not stop the processor after reset
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.doProcessorReset(TM.java:991)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:502)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:584)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:26:06 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:26:18 INFO  : ps7_init is completed.
+10:26:18 INFO  : ps7_post_config is completed.
+10:26:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:27:05 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:27:16 INFO  : ps7_init is completed.
+10:27:16 INFO  : ps7_post_config is completed.
+10:27:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:27:57 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:28:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:34:34 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:34:48 INFO  : ps7_init is completed.
+10:34:48 INFO  : ps7_post_config is completed.
+10:34:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:35:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:40:54 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:41:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:42:56 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:43:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:44:08 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:44:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:45:18 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:45:28 INFO  : ps7_init is completed.
+10:45:28 INFO  : ps7_post_config is completed.
+10:45:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:47:29 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:47:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:22:59 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:23:11 INFO  : ps7_init is completed.
+11:23:11 INFO  : ps7_post_config is completed.
+11:23:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:24:28 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:24:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:26:58 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:27:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:27:56 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:28:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:29:17 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:29:31 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:29:41 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:29:48 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Error while running ps7_init method.
+Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+
+	at com.xilinx.sdk.targetmanager.internal.TM.run_ps7_init(TM.java:1069)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runTargetSetup(XilinxAppLaunchConfigurationDelegate.java:482)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:584)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:30:30 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:31:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:38:38 INFO  : Processing command line option -hwspec E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf.
+11:38:41 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:38:42 INFO  : Launching XSDB server: xsdb.bat -s F:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:41:41 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:41:54 INFO  : ps7_init is completed.
+11:41:54 INFO  : ps7_post_config is completed.
+11:41:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:42:33 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:42:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:43:35 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:43:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:44:48 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:45:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:46:46 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:47:08 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:47:18 INFO  : ps7_init is completed.
+11:47:18 INFO  : ps7_post_config is completed.
+11:47:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:47:51 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:48:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:51:52 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:52:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:55:14 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:55:26 INFO  : ps7_init is completed.
+11:55:26 INFO  : ps7_post_config is completed.
+11:55:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:56:56 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:57:04 INFO  : ps7_init is completed.
+11:57:04 INFO  : ps7_post_config is completed.
+11:57:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:58:11 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:58:21 INFO  : ps7_init is completed.
+11:58:21 INFO  : ps7_post_config is completed.
+11:58:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:59:37 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:59:47 INFO  : ps7_init is completed.
+11:59:47 INFO  : ps7_post_config is completed.
+11:59:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:01:24 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+12:01:33 INFO  : ps7_init is completed.
+12:01:33 INFO  : ps7_post_config is completed.
+12:01:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:09:09 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+12:11:31 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+12:11:40 INFO  : ps7_init is completed.
+12:11:40 INFO  : ps7_post_config is completed.
+12:11:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:14:50 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+12:15:58 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+12:16:44 INFO  : ps7_init is completed.
+12:16:44 INFO  : ps7_post_config is completed.
+12:16:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:11:12 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:11:26 INFO  : ps7_init is completed.
+14:11:26 INFO  : ps7_post_config is completed.
+14:11:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:13:46 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:14:33 INFO  : ps7_init is completed.
+14:14:33 INFO  : ps7_post_config is completed.
+14:14:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:15:40 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:15:53 INFO  : ps7_init is completed.
+14:15:53 INFO  : ps7_post_config is completed.
+14:15:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:20:07 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:20:33 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:21:30 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:21:43 INFO  : ps7_init is completed.
+14:21:43 INFO  : ps7_post_config is completed.
+14:21:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:12:40 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:55:01 INFO  : Processing command line option -hwspec E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf.
+09:55:03 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+09:55:04 INFO  : Launching XSDB server: xsdb.bat -s F:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+09:55:32 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+09:55:42 INFO  : ps7_init is completed.
+09:55:42 INFO  : ps7_post_config is completed.
+09:55:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:57:36 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:19:29 INFO  : Processing command line option -hwspec E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf.
+10:19:35 INFO  : Launching XSDB server: xsdb.bat -s F:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+10:19:36 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+10:20:15 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1435371424314,  Project:1435073444116
+10:20:15 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf.
+10:20:16 INFO  : Copied contents of E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+10:20:18 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:21:34 INFO  : 
+10:21:35 INFO  : Updating hardware inferred compiler options for TestApp2.
+10:21:35 INFO  : Clearing existing target manager status.
+10:24:35 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:24:46 INFO  : ps7_init is completed.
+10:24:46 INFO  : ps7_post_config is completed.
+10:24:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:29:07 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:29:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:30:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:35:30 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:35:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:37:30 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:37:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:39:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:54:35 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:54:50 INFO  : ps7_init is completed.
+10:54:50 INFO  : ps7_post_config is completed.
+10:54:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:57:37 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:59:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:04:09 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:04:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:06:23 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:06:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:10:30 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:10:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:10:40 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    Cannot access DDR: the controller is held in reset
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:666)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:605)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:293)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:11:50 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:12:13 INFO  : Processing command line option -hwspec E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf.
+11:12:15 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+11:12:16 INFO  : Launching XSDB server: xsdb.bat -s F:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+11:14:30 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+11:14:38 INFO  : ps7_init is completed.
+11:14:38 INFO  : ps7_post_config is completed.
+11:14:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:05:43 INFO  : FPGA configured successfully with bitstream "E:/university/learning/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+12:06:03 INFO  : ps7_init is completed.
+12:06:03 INFO  : ps7_post_config is completed.
+12:06:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:39:18 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:42:36 INFO  : Processing command line option -hwspec E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper.hdf.
+12:42:38 INFO  : Launching XSDB server: xsdb.bat -s D:/software/Xilinx/SDK/2015.1/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+12:43:01 INFO  : XSDB server has started successfully.
+13:31:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:31:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+13:31:56 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+13:32:16 INFO  : ps7_init is completed.
+13:32:16 INFO  : ps7_post_config is completed.
+13:32:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:36:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:36:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+13:36:56 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+13:37:05 INFO  : ps7_init is completed.
+13:37:05 INFO  : ps7_post_config is completed.
+13:37:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:44:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:44:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+13:44:49 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+13:44:59 INFO  : ps7_init is completed.
+13:44:59 INFO  : ps7_post_config is completed.
+13:45:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:46:58 INFO  : Time out for XMD transaction is 60000
+If you want to increase the timeout value, goto Windows-> Preferences -> Xilinx SDK -> XMD Startup
+13:46:58 ERROR : Timeout occured while waiting to get reply for command "xstop 64"
+13:56:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:56:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+13:56:49 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+13:56:59 INFO  : ps7_init is completed.
+13:57:00 INFO  : ps7_post_config is completed.
+13:57:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:00:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:00:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+14:00:40 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:00:55 INFO  : ps7_init is completed.
+14:00:56 INFO  : ps7_post_config is completed.
+14:00:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:09:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:09:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+14:09:35 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:09:48 INFO  : ps7_init is completed.
+14:09:48 INFO  : ps7_post_config is completed.
+14:09:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:53:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:53:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+14:53:04 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:53:16 INFO  : ps7_init is completed.
+14:53:16 INFO  : ps7_post_config is completed.
+14:53:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:59:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:59:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+14:59:46 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:59:58 INFO  : ps7_init is completed.
+14:59:58 INFO  : ps7_post_config is completed.
+14:59:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:02:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:02:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+15:02:23 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:02:48 INFO  : ps7_init is completed.
+15:02:48 INFO  : ps7_post_config is completed.
+15:02:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:12:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:12:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+15:12:36 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:12:44 INFO  : ps7_init is completed.
+15:12:44 INFO  : ps7_post_config is completed.
+15:12:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:16:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:16:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+15:16:21 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:16:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:16:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+15:16:29 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:16:36 INFO  : ps7_init is completed.
+15:16:36 INFO  : ps7_post_config is completed.
+15:16:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:40:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:40:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+15:40:50 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:41:01 INFO  : ps7_init is completed.
+15:41:01 INFO  : ps7_post_config is completed.
+15:41:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:42:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:42:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+15:42:33 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:42:40 INFO  : ps7_init is completed.
+15:42:40 INFO  : ps7_post_config is completed.
+15:42:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:50:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:50:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+15:50:42 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:50:49 INFO  : ps7_init is completed.
+15:50:50 INFO  : ps7_post_config is completed.
+15:50:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:11:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:11:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+16:11:42 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:11:51 INFO  : ps7_init is completed.
+16:11:51 INFO  : ps7_post_config is completed.
+16:11:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:20:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:20:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+16:20:05 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:20:16 INFO  : ps7_init is completed.
+16:20:16 INFO  : ps7_post_config is completed.
+16:20:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:55:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:55:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+16:55:32 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:55:44 INFO  : ps7_init is completed.
+16:55:44 INFO  : ps7_post_config is completed.
+16:55:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:06:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:06:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+17:06:14 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:06:26 INFO  : ps7_init is completed.
+17:06:27 INFO  : ps7_post_config is completed.
+17:06:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:20:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:20:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+17:20:56 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:21:10 INFO  : ps7_init is completed.
+17:21:10 INFO  : ps7_post_config is completed.
+17:21:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:29:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:29:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+17:29:38 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:29:50 INFO  : ps7_init is completed.
+17:29:50 INFO  : ps7_post_config is completed.
+17:29:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:38:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:38:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+17:38:37 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:39:10 INFO  : ps7_init is completed.
+17:39:10 INFO  : ps7_post_config is completed.
+17:39:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:48:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:48:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+17:48:55 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:49:04 INFO  : ps7_init is completed.
+17:49:04 INFO  : ps7_post_config is completed.
+17:49:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:56:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:56:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+17:56:56 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:57:05 INFO  : ps7_init is completed.
+17:57:05 INFO  : ps7_post_config is completed.
+17:57:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:07:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:07:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+18:07:27 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:07:35 INFO  : ps7_init is completed.
+18:07:35 INFO  : ps7_post_config is completed.
+18:07:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:09:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:09:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+18:09:50 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:09:57 INFO  : ps7_init is completed.
+18:09:58 INFO  : ps7_post_config is completed.
+18:09:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:14:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:14:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+18:14:44 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:14:50 INFO  : ps7_init is completed.
+18:14:50 INFO  : ps7_post_config is completed.
+18:14:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:17:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:17:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+18:17:25 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:17:31 INFO  : ps7_init is completed.
+18:17:31 INFO  : ps7_post_config is completed.
+18:17:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:24:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:24:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+18:24:50 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:25:00 INFO  : ps7_init is completed.
+18:25:00 INFO  : ps7_post_config is completed.
+18:25:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:34:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:34:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+18:35:00 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:35:08 INFO  : ps7_init is completed.
+18:35:08 INFO  : ps7_post_config is completed.
+18:35:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:42:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:42:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+18:42:42 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:43:07 INFO  : ps7_init is completed.
+18:43:07 INFO  : ps7_post_config is completed.
+18:43:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:45:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:45:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+18:45:51 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:46:02 INFO  : ps7_init is completed.
+18:46:02 INFO  : ps7_post_config is completed.
+18:46:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:56:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:56:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+18:56:48 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:56:54 INFO  : ps7_init is completed.
+18:56:54 INFO  : ps7_post_config is completed.
+18:56:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:58:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:58:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+18:58:47 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+18:58:52 INFO  : ps7_init is completed.
+18:58:52 INFO  : ps7_post_config is completed.
+18:58:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:23:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:23:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+19:23:54 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:24:01 INFO  : ps7_init is completed.
+19:24:01 INFO  : ps7_post_config is completed.
+19:24:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:47:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:47:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+19:47:06 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:47:12 INFO  : ps7_init is completed.
+19:47:12 INFO  : ps7_post_config is completed.
+19:47:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:49:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:49:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+19:49:54 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+19:49:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:06:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:06:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+20:06:38 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:07:02 INFO  : ps7_init is completed.
+20:07:02 INFO  : ps7_post_config is completed.
+20:07:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:07:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:07:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+20:08:01 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:08:08 INFO  : ps7_init is completed.
+20:08:08 INFO  : ps7_post_config is completed.
+20:08:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:21:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:21:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+20:21:19 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:21:49 INFO  : ps7_init is completed.
+20:21:49 INFO  : ps7_post_config is completed.
+20:21:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:22:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:22:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+20:22:47 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:22:57 INFO  : ps7_init is completed.
+20:22:57 INFO  : ps7_post_config is completed.
+20:22:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:24:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:24:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+20:24:20 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:24:32 INFO  : ps7_init is completed.
+20:24:32 INFO  : ps7_post_config is completed.
+20:24:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:36:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:38:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:39:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:39:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:42:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:42:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+20:42:10 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:42:24 INFO  : ps7_init is completed.
+20:42:24 INFO  : ps7_post_config is completed.
+20:42:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:45:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:45:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279539171A" && level==0} -index 1' command is executed.
+20:45:20 INFO  : FPGA configured successfully with bitstream "E:/aHardware/Linux2/hehe2/try_2/try_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:45:49 INFO  : ps7_init is completed.
+20:45:49 INFO  : ps7_post_config is completed.
+20:45:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:23:20 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

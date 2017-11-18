@@ -1,0 +1,58 @@
+23:22:47 **** Auto Build of configuration Debug for project TestApp2 ****
+make all 
+'Building file: ../src/lab2.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lab2.o" -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lab2.d" -MT"src/lab2.d" -o "src/lab2.o" "../src/lab2.c"
+In file included from ../src/xutil.h:112:0,
+                 from ../src/lab2.c:3:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../standalone_bsp_0/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+../src/lab2.c: In function 'Initial':
+../src/lab2.c:226:2: warning: implicit declaration of function 'show_string' [-Wimplicit-function-declaration]
+  show_string(7,0,"      SH",&b,&s);
+  ^
+../src/lab2.c:234:2: warning: implicit declaration of function 'show_number' [-Wimplicit-function-declaration]
+  show_number(0,12,Score,&b,&s);
+  ^
+../src/lab2.c:280:4: warning: implicit declaration of function 'display_once' [-Wimplicit-function-declaration]
+    display_once(GameMapBit,&s);
+    ^
+../src/lab2.c: At top level:
+../src/lab2.c:562:6: warning: conflicting types for 'display_once'
+ void display_once(u32 mypicture[], XGpio *nn)
+      ^
+../src/lab2.c:280:4: note: previous implicit declaration of 'display_once' was here
+    display_once(GameMapBit,&s);
+    ^
+../src/lab2.c:1159:6: warning: conflicting types for 'show_string'
+ void show_string(unsigned char p, unsigned char l,char  *string, XGpio *b,XGpio *s)   //在第p页的l列
+      ^
+../src/lab2.c:226:2: note: previous implicit declaration of 'show_string' was here
+  show_string(7,0,"      SH",&b,&s);
+  ^
+../src/lab2.c:1171:6: warning: conflicting types for 'show_number'
+ void show_number(unsigned char p, unsigned char l,unsigned int d, XGpio *b,XGpio *s)   //在第p页的l列
+      ^
+../src/lab2.c:234:2: note: previous implicit declaration of 'show_number' was here
+  show_number(0,12,Score,&b,&s);
+  ^
+'Finished building: ../src/lab2.c'
+' '
+'Building target: TestApp2.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "TestApp2.elf"  ./src/lab2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TestApp2.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size TestApp2.elf  |tee "TestApp2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  43272	   2272	  23780	  69324	  10ecc	TestApp2.elf
+'Finished building: TestApp2.elf.size'
+' '
+
+23:23:16 Build Finished (took 28s.665ms)
+

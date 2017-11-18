@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Wed Jun 24 00:08:17 2015
+# Process ID: 2480
+# Log file: E:/university/learning/try_2/vivado.log
+# Journal file: E:/university/learning/try_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/university/learning/try_2/try_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2014.4/data/ip'.
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 694.898 ; gain = 145.512
+file copy -force E:/university/learning/try_2/try_2.runs/impl_1/system_wrapper.sysdef E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf
+
+launch_sdk -workspace E:/university/learning/try_2/try_2.sdk -hwspec E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace E:/university/learning/try_2/try_2.sdk -hwspec E:/university/learning/try_2/try_2.sdk/system_wrapper.hdf
+ERROR: [Common 17-70] Application Exception: Not found in path: xsdk
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 24 00:27:51 2015...
